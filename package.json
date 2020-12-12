@@ -1,0 +1,24 @@
+{
+  "name": "budget-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "cross-fetch": "^3.0.6",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "graphql": "^15.4.0",
+    "graphql-tag": "^2.11.0",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
